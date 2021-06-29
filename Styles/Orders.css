@@ -1,0 +1,9 @@
+@import "../variables.css";
+
+.Orders{
+    padding: 2rem 8rem;
+}
+
+.Orders > h1{
+    margin: 3rem 0 ;
+}

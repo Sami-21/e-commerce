@@ -1,0 +1,35 @@
+@import "../variables.css";
+
+.checkoutproduct{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.checkoutproduct_info{
+    padding-left: 2rem;
+}
+.checkoutproduct_info > button{
+    margin-top: 1rem;
+    background:var(--blue);
+    color: var(--dark-gray);
+    outline:none;
+    border:.1rem solid;
+    border-radius: .25rem;
+    cursor:pointer;
+}
+
+.checkoutproduct_info > button:hover{
+background:var(--dark-blue);
+transition:.25s;
+}
+
+.checkoutproduct_image{
+    object-fit:contain;
+    width: 18rem;
+    height: 18rem;
+}
+.checkoutproduct_title{
+    font-size: 1.5rem;
+    font-weight: 800;
+}

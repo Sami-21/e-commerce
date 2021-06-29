@@ -1,0 +1,35 @@
+@import "../variables.css";
+
+.subtotal{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 25rem;
+    height: 10rem;
+    background-color:#f3f3f3;
+    border:.1rem solid#ddd;
+    border-radius: .5rem;
+    padding:2rem;
+}
+.subtotal_gift{
+    display:flex;
+    align-items: center;
+}
+.subtotal_gift > input{
+    margin-right: .5rem;
+}
+
+.subtotal > button {
+    margin-top: 1rem;
+    background:var(--blue);
+    color: var(--dark-gray);
+    outline:none;
+    border:.1rem solid;
+    padding:.5rem;
+    border-radius: .25rem;
+    cursor:pointer;
+}
+.subtotal > button:hover {
+    background:var(--dark-blue);
+   transition:.25s;
+}

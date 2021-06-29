@@ -1,0 +1,89 @@
+@import "../variables.css";
+ 
+/*Header Bar Styling*/
+.header_bar{
+    position: fixed;
+    display:flex;
+    padding-left: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    margin: 0%;
+    background-color:#242024;
+    color: #fff;
+    z-index: 100000;
+}
+.header_bar a{
+    color:inherit;
+    text-decoration: none;
+}
+
+
+/*Logo Styling*/
+.header_logo{
+    width: 7.5rem;
+    object-fit: contain;
+    color: #fff;
+}
+ 
+
+/*Search Section Styling*/
+.header_search{
+    display:flex;
+    flex: 1;
+    align-items: center;
+}
+/*Search input Styling*/
+.header_searchInput{
+    height: 1rem;
+    padding: .6rem;
+    outline: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 100%;
+}
+
+/*Search Icon Styling*/
+.header_searchIcon{
+padding: 0.5rem;
+background-color: #4842f5;
+border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+cursor: pointer;
+}
+
+/*Navigation Section Styling*/
+.header_nav{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Single Option Container Styling*/
+.nav_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav_option_Basket{
+    width:3rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: #fff;
+    text-decoration: none;
+}
+/*First line Styling*/
+.nav_optionLineOne{
+    font-size: 1rem;
+}
+/*Second line Styling*/
+.nav_optionLineTwo{
+    font-size: 1.25rem;
+    font-weight: 800;
+}

@@ -1,0 +1,58 @@
+@import "../variables.css";
+
+.payment_container {
+  width: 100%;
+  min-height: 100vh;
+   
+}
+.payment_container > h1 {
+  width: 100%;
+  font-weight: 400;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 0.1rem solid var(--light-gray);
+  background-color: white;
+}
+.payment_container > h1 a {
+  text-decoration: none;
+  color: var(--blue);
+}
+.payment_section {
+  display: flex;
+  padding: 2rem;
+  border-bottom: 0.1rem solid var(--light-gray);
+  margin: 0 2rem;
+}
+
+.payment_title{
+    flex: 0.2;
+}
+
+.payment_address, .payment_items, .payment_details{
+    flex:.8;
+}
+
+
+.payment_details > form{
+  max-width: 40rem;
+}
+.payment_price_container > button {
+  width: 100%;
+  height:2rem;
+  margin-top: 1rem;
+  background:var(--blue);
+  color: var(--dark-gray);
+  outline:none;
+  border:.1rem solid;
+  padding:.5rem;
+  border-radius: .25rem;
+  cursor:pointer;
+}
+.payment_price_container > button:disabled {
+  background:var(--dark-blue);
+  pointer-events: none;
+  opacity: .75;
+}.payment_price_container > button:hover {
+  background:var(--dark-blue);
+ transition:.25s;
+}

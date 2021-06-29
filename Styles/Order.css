@@ -1,0 +1,20 @@
+@import "../variables.css";
+
+.Order {
+  padding: 4rem;
+  margin: 2rem 0;
+  border: 0.1rem solid var(--light-gray);
+  background-color: white;
+  position: relative;
+}
+
+.order_id {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+}
+
+.order_total {
+  font-weight: 500;
+  text-align: right;
+}

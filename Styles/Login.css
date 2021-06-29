@@ -1,0 +1,66 @@
+@import "../variables.css";
+
+.Login_page{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    height:100vh;
+}
+.login_logo{
+    text-align:center;
+    object-fit: contain;
+    width:10rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-left:auto;
+    margin-left:auto;
+}
+.login_container{
+    width:25rem;
+    height:fit-content;
+    padding: 2rem;
+    display:flex;
+    align-items: center;
+    border: 0.1rem solid black;
+    border-radius: 0.25rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:center;
+}
+.login_container h1{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.login_container form {
+width: 100%;
+}
+.login_container form h5{
+    margin-bottom: 1rem;
+}
+.login_container form input{
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    width:98%;
+}
+.login_SignInBtn{
+    width:8rem !important;
+    background:var(--blue);
+    margin-bottom: 2.5rem !important;
+    color: var(--dark-gray);
+    outline:none;
+    border:.1rem solid;
+    padding:.5rem;
+    border-radius: .25rem;
+    cursor:pointer;
+}
+.login_RegisterBtn{
+    width: 100%;
+    background:var(--blue);
+    color: var(--dark-gray);
+    outline:none;
+    border:.1rem solid;
+    padding:.5rem;
+    border-radius: .25rem;
+    cursor:pointer;
+}

@@ -1,0 +1,56 @@
+@import "../variables.css";
+
+/*Product Layout Styling*/
+.Product{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-end;
+    margin:01rem;
+    padding:1.75rem;
+    width:100%;
+    max-height: 38rem;
+    min-width:10rem;
+    background:white;
+    border-radius: 0.5rem;
+    z-index:5;
+}
+
+/*Product Image Styling*/
+.Product > img{
+    width:100%;
+    min-height: 18rem;
+    object-fit:contain;
+    margin-bottom: 1.25rem;
+}
+
+/*Info Alignment*/
+.product_info{
+width: 100%;
+height: 10rem;
+margin-bottom: 1.25rem;
+}
+.product_price{
+    margin-top: .5rem;
+}
+.product_rating{
+    display:flex;
+    margin-top: .5rem;
+}
+
+.material-icons.star_outline,
+    .material-icons.star{
+    color: var(--dark-yellow);
+}
+
+/*Product Image Styling*/
+.Product > button {
+    margin-top: 1rem;
+    background:var(--blue);
+    color: var(--dark-gray);
+    outline:none;
+    border:.1rem solid;
+    padding:.5rem .75rem;
+    border-radius: .25rem;
+    cursor:pointer;
+}

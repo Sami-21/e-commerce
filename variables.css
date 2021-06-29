@@ -1,0 +1,8 @@
+:root{
+    --dark-blue:#3934c4;
+    --blue:#4842f5;
+    --dark-gray:#111;
+    --light-gray:#999;
+    --dark-yellow:rgb(238, 222, 3);
+    --background:linear-gradient(45deg, rgba(140,85,250, 0.49019607843137253) 0%,rgba(200,215,253, 0.49019607843137253) 75%,rgba(143,230,243, 0.49) 100%);
+}
